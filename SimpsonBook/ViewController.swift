@@ -23,10 +23,14 @@ final class ViewController: UIViewController {
         
         let maggie = Simpson(nameInit: "Maggie Simpson", jobInit: "Baby", imageInit: UIImage(named: "maggie")!)
         
+        let marge = Simpson(nameInit: "Marge Simpson", jobInit: "Mom", imageInit: UIImage(named: "marge")!)
+        
         simpsonArr.append(homer)
         simpsonArr.append(bart)
         simpsonArr.append(maggie)
+        simpsonArr.append(marge)
        
+        print("Simpson Ailesi Son hali v3")
     }
 }
 
